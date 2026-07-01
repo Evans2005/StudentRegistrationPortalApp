@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentregistrationportal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Student Registration Portal"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudentRegistrationPortal"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".activities.RegistrationActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".activities.ForgotPasswordActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".activities.DashboardActivity" />
+
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".activities.ChangePasswordActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".activities.MyCoursesActivity" />
+
+        <activity
+            android:name=".activities.GradesActivity" />
+
+        <activity
+            android:name=".activities.AttendanceActivity" />
+
+        <activity
+            android:name=".activities.TimetableActivity" />
+
+        <activity
+            android:name=".activities.CourseRegistrationActivity" />
+
+        <activity
+            android:name=".activities.AnnouncementsActivity" />
+
+        <activity
+            android:name=".activities.ReportsActivity" />
+
+        <activity
+            android:name=".activities.ReportPreviewActivity" />
+
+    </application>
+
+</manifest>
